@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Publicaciones\Legado Educativo\WebLegadoEducativo01</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Beneficios.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/11/2023 12:17:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/11/2023 12:17:59</publishTime>
+    </File>
+    <File Include="bin/WebClientesPotencialesLEProp.dll">
+      <publishTime>04/10/2023 22:12:07</publishTime>
+    </File>
+    <File Include="bin/WebClientesPotencialesLEProp.pdb">
+      <publishTime>04/10/2023 22:12:07</publishTime>
+    </File>
+    <File Include="bin/WebClientesPotencialesLEProp.XmlSerializers.dll">
+      <publishTime>04/10/2023 22:12:08</publishTime>
+    </File>
+    <File Include="bin/WebLegadoEducativo01.dll">
+      <publishTime>11/07/2023 12:03:36</publishTime>
+    </File>
+    <File Include="bin/WebLegadoEducativo01.pdb">
+      <publishTime>11/07/2023 12:03:36</publishTime>
+    </File>
+    <File Include="bin/WebLegadoEducativo01.XmlSerializers.dll">
+      <publishTime>11/07/2023 12:03:36</publishTime>
+    </File>
+    <File Include="ConoceMasArquiHabi.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasArtDis.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasBicult.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasCarreras.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasInter.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasMBA.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasMDOC.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasMedi.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasMulti.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="ConoceMasOtrosPos.aspx">
+      <publishTime>11/07/2023 11:50:19</publishTime>
+    </File>
+    <File Include="CrearCuenta.aspx">
+      <publishTime>12/04/2022 17:03:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/11/2023 12:17:57</publishTime>
+    </File>
+    <File Include="HomePerfil.aspx">
+      <publishTime>12/14/2022 20:56:41</publishTime>
+    </File>
+    <File Include="IniciaSesion_CreaPerfil.aspx">
+      <publishTime>01/30/2023 03:46:53</publishTime>
+    </File>
+    <File Include="MasInfoMDO.aspx">
+      <publishTime>11/07/2023 11:50:18</publishTime>
+    </File>
+    <File Include="Page.Master">
+      <publishTime>11/07/2023 11:50:18</publishTime>
+    </File>
+    <File Include="PreCotizar.aspx">
+      <publishTime>01/30/2023 03:44:48</publishTime>
+    </File>
+    <File Include="QueEs.aspx">
+      <publishTime>11/07/2023 11:50:18</publishTime>
+    </File>
+    <File Include="Resources/2018-admisiones-y-becas-posgrados-hero_0.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2018-ciencias-de-la-salud-maestria-en-psicologia-clinica-hero.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2018-ciencias-de-la-salud-talleres-y-laboratorios.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2018-negocios-programas-maestria-en-desarrollo-organizacional-y-cambio-en-linea-hero_0.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2018-prepa-bachillerato-bicultural-hero.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2019-Negocios-Maestria-en-Administracion-hero_0.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2021-Vicsa_0.png">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2021_IB_bachillerato.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/2021_multicultural_bachillerato.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/31714822306_6150d065c7_o.jpg">
+      <publishTime>11/07/2023 11:50:32</publishTime>
+    </File>
+    <File Include="Resources/51388109927_e28eeb3f3d_k.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/51388874611_74a0764b6c_k.jpg">
+      <publishTime>11/07/2023 11:50:32</publishTime>
+    </File>
+    <File Include="Resources/51388889251_041cf135fc_k.jpg">
+      <publishTime>11/07/2023 11:50:32</publishTime>
+    </File>
+    <File Include="Resources/51389636919_a4b3eeb881_k.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/51389728355_91ef306ceb_k.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/51389823635_f8a30160f3_k.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/51402728656_88e544dcc9_k.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/51404373587_444d445934_k.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/51406153665_828be450c1_k.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/51407216763_5502e40721_k.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/51407247429_6defc905df_k.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/51408936851_9cd8fc30a9_k.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/52648284301_35a89bc592_k.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Bachillerato01.jpg">
+      <publishTime>11/02/2022 15:13:25</publishTime>
+    </File>
+    <File Include="Resources/BeneficiosLegadoEducativo.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Captura de pantalla 2023-07-21 a la%28s%29 3.23.12 p.m..png">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Captura de pantalla 2023-07-21 a la%28s%29 3.40.38 p.m..png">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonio Luis Meneses.mp4">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_1-01.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_2-02.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_3-03.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_4-07.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_5-08.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_6-10.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_7-12.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Copia de Testimonios_8-13.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/CRGS-COVER-1280x800.png">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/CRGS-UDEM-Solar.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/DSC05180-Edit.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/DSC05235-Edit.jpg">
+      <publishTime>11/07/2023 11:50:31</publishTime>
+    </File>
+    <File Include="Resources/Hero-Admisiones.png">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Imagen-Legado-2prueba.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Imagen-Legado-3.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Imagen-Legado-4.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/LegadoEducativo-hero-2022.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/logo.png">
+      <publishTime>11/07/2023 11:50:30</publishTime>
+    </File>
+    <File Include="Resources/Naranja4.png">
+      <publishTime>11/07/2023 11:50:30</publishTime>
+    </File>
+    <File Include="Resources/perfil.png">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Resources/Posgrado01.jpg">
+      <publishTime>11/02/2022 15:13:25</publishTime>
+    </File>
+    <File Include="Resources/Profesional01.jpg">
+      <publishTime>11/02/2022 15:13:25</publishTime>
+    </File>
+    <File Include="Resources/QueEsLegado.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Rocio Alanis-28.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado 2019-202.jpg">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-129 %281%29.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-20.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-231.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-239 %283%29.jpg">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-250.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-348.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-39.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-423.jpg">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-6.jpg">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Resources/Sesion Legado Educativo 2022-68.jpg">
+      <publishTime>11/07/2023 11:35:04</publishTime>
+    </File>
+    <File Include="Resources/Sesion_Legado_Educativo_2022-171.jpg">
+      <publishTime>11/07/2023 11:50:29</publishTime>
+    </File>
+    <File Include="Resources/SoliLE.jpg">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Resources/thumbnail_Sesion Legado Educativo 2022-233.jpg">
+      <publishTime>11/07/2023 11:34:31</publishTime>
+    </File>
+    <File Include="Resources/Vision2ciruclo_0.jpg">
+      <publishTime>11/07/2023 11:50:29</publishTime>
+    </File>
+    <File Include="Resources/Visioncirculo1.png">
+      <publishTime>11/07/2023 11:50:29</publishTime>
+    </File>
+    <File Include="Resources/Vídeo_LE_Testimonio_abuelo.mp4">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Scripts/JScriptHome.js">
+      <publishTime>11/07/2023 11:50:32</publishTime>
+    </File>
+    <File Include="Scripts/JScriptOcultaMenu.js">
+      <publishTime>11/07/2023 11:50:32</publishTime>
+    </File>
+    <File Include="SolicitudCompraLE.aspx">
+      <publishTime>12/14/2022 21:12:33</publishTime>
+    </File>
+    <File Include="Styles/Beneficios_Styles.css">
+      <publishTime>11/07/2023 11:54:02</publishTime>
+    </File>
+    <File Include="Styles/Certificados_Styles.css">
+      <publishTime>11/07/2023 12:03:15</publishTime>
+    </File>
+    <File Include="Styles/Footer_Styles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/FormStyles.css">
+      <publishTime>12/14/2022 20:45:13</publishTime>
+    </File>
+    <File Include="Styles/Header_Styles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/HomePerfilStyles.css">
+      <publishTime>12/14/2022 20:55:31</publishTime>
+    </File>
+    <File Include="Styles/Home_Styles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/InicioCreaStyles.css">
+      <publishTime>11/25/2022 10:18:33</publishTime>
+    </File>
+    <File Include="Styles/Master.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/MasterStyles.css">
+      <publishTime>03/20/2023 19:21:33</publishTime>
+    </File>
+    <File Include="Styles/MenuStyles.css">
+      <publishTime>03/20/2023 19:24:44</publishTime>
+    </File>
+    <File Include="Styles/QueEs_Styles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/Testimonios_Styles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/Vision_Styles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Styles/WebStyles.css">
+      <publishTime>11/07/2023 11:54:04</publishTime>
+    </File>
+    <File Include="Testimonios.aspx">
+      <publishTime>11/07/2023 11:50:18</publishTime>
+    </File>
+    <File Include="VisionUDEM.aspx">
+      <publishTime>11/07/2023 11:50:18</publishTime>
+    </File>
+    <File Include="Web References/WSConClientePotencial/CsClientePotencial.datasource">
+      <publishTime>12/13/2022 15:08:14</publishTime>
+    </File>
+    <File Include="Web References/WSConClientePotencial/CsClientePotencial1.datasource">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSConClientePotencial/Reference.map">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSConsUsuext/CsConUsuExt.datasource">
+      <publishTime>11/30/2022 20:35:16</publishTime>
+    </File>
+    <File Include="Web References/WSConsUsuext/CsConUsuExt1.datasource">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSConsUsuext/Reference.map">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSInsertaClientePotencial/Reference.map">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSInsertaClientePotencial/Respuesta.datasource">
+      <publishTime>11/01/2022 23:36:07</publishTime>
+    </File>
+    <File Include="Web References/WSInsertaClientePotencial/Respuesta1.datasource">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSInsUsuarioExterno/Reference.map">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web References/WSInsUsuarioExterno/Respuesta.datasource">
+      <publishTime>11/30/2022 20:35:45</publishTime>
+    </File>
+    <File Include="Web References/WSInsUsuarioExterno/Respuesta1.datasource">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/07/2023 11:34:32</publishTime>
+    </File>
+    <File Include="WebClientesPotenciales.aspx">
+      <publishTime>11/07/2023 11:50:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

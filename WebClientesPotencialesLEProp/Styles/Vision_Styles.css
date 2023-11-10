@@ -1,0 +1,179 @@
+﻿#Container_VisionUDEMLE {
+    position: relative;
+    height: 99vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*#region Texto */
+.Container_txt_y_Btn_Vision > .txt_y_Btn {
+    padding: 0 15%;
+}
+
+.degradado {
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(rgba(250,156,20,1) 0%, rgba(255 231 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5rem;
+}
+
+.txt_VisionUdem {
+    font-size: 1rem;
+}
+/*#endregion */
+
+/*#region Boton */
+.btn_Degradado {
+    background: linear-gradient(45deg, rgba(250, 156, 20, 1) 0%, rgb(254 231 0) 100%);
+    border: none !important;
+    padding: .75rem 1.25rem !important;
+    font-weight: 600;
+    border-radius: 100vw;
+    font-size: 1rem;
+    color: #000;
+}
+
+    .btn_Degradado:hover {
+        background: linear-gradient(45deg, rgba(253, 202, 49, 1) 0%, rgba(250, 156, 20, 1) 100%);
+    }
+/*#endregion */
+
+/*#region Imgs */
+#container_ImgVision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #container_ImgVision > .container_Visioncirculo1 {
+        position: relative;
+        height: 30rem;
+        width: 30rem;
+        z-index: 2;
+    }
+
+        #container_ImgVision > .container_Visioncirculo1 > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #container_ImgVision > .container_Visioncirculo1 .Vision2ciruclo_0 {
+            z-index: 3;
+            position: absolute;
+            height: 15rem;
+            width: 15rem;
+            border-radius: 100vw;
+            bottom: -12rem;
+            right: 0;
+        }
+
+        #container_ImgVision > .container_Visioncirculo1 .Naranja4 {
+            z-index: -1;
+            position: absolute;
+            height: 12.5rem;
+            width: 12.5rem;
+            border-radius: 100vw;
+            bottom: -3.75rem;
+            left: -7.25rem;
+        }
+/*#endregion */
+
+/*Móviles*/
+@media (max-width: 767px) {
+    #Container_VisionUDEMLE {
+        grid-template-columns: 1fr;
+    }
+
+    .degradado {
+        font-size: 4rem;
+    }
+
+    .Container_txt_y_Btn_Vision {
+        order: 2;
+    }
+
+    /*#region Imgs */
+
+    #container_ImgVision > .container_Visioncirculo1 {
+        height: 12.5rem;
+        width: 12.5rem;
+    }
+
+        #container_ImgVision > .container_Visioncirculo1 .Vision2ciruclo_0 {
+            height: 8.5rem;
+            width: 8.5rem;
+            bottom: -6rem;
+            right: -2.5rem;
+        }
+
+        #container_ImgVision > .container_Visioncirculo1 .Naranja4 {
+            height: 6.75rem;
+            width: 6.75rem;
+            border-radius: 100vw;
+            bottom: -4.5rem;
+            left: -2.5rem;
+        }
+    /*#endregion */
+}
+
+/*Tabletas*/
+@media (min-width: 768px) and (max-width:1023px) {
+    /*#region Imgs */
+
+    #container_ImgVision > .container_Visioncirculo1 {
+        height: 17.5rem;
+        width: 17.5rem;
+    }
+
+        #container_ImgVision > .container_Visioncirculo1 .Vision2ciruclo_0 {
+            height: 10rem;
+            width: 10rem;
+            bottom: -6rem;
+            right: -2.5rem;
+        }
+
+        #container_ImgVision > .container_Visioncirculo1 .Naranja4 {
+            height: 8.5rem;
+            width: 8.5rem;
+            border-radius: 100vw;
+            bottom: -5.5rem;
+            left: -3rem;
+        }
+    /*#endregion */
+}
+/*Portátiles*/
+@media (min-width: 1024px) and (max-width:1280px) {
+    /*#region Imgs */
+
+    #container_ImgVision > .container_Visioncirculo1 {
+        height: 22.5rem;
+        width: 22.5rem;
+    }
+
+        #container_ImgVision > .container_Visioncirculo1 .Vision2ciruclo_0 {
+            height: 12.5rem;
+            width: 12.5rem;
+            bottom: -8rem;
+            right: -4rem;
+        }
+
+        #container_ImgVision > .container_Visioncirculo1 .Naranja4 {
+            height: 10rem;
+            width: 10rem;
+            border-radius: 100vw;
+            bottom: -6rem;
+            left: -3.5rem;
+        }
+    /*#endregion */
+}
+/*Escritorio*/
+@media (min-width: 1281px) {
+}

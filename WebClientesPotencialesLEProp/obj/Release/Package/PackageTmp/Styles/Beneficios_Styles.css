@@ -1,0 +1,96 @@
+﻿#Container_BeneficiosLE {
+    position: relative;
+}
+
+#BeneficiosLE {
+    background-color: #2d2f2f;
+    height: 100%;
+}
+
+/*__Texto__*/
+#Container_txt_Beneficios {
+    position: relative;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+
+.txtBenefi {
+    padding: 20%;
+    z-index: 2;
+}
+
+    .txtBenefi p {
+        padding: 1.5rem 0;
+    }
+
+        .txtBenefi p strong {
+            font-size: 1rem;
+        }
+
+        .txtBenefi p small {
+            display: block;
+            line-height: 1rem;
+            margin: .25rem 0 0 0;
+        }
+
+.title_BeneficiosLE {
+    margin: 5% 0;
+}
+
+    .title_BeneficiosLE h1 {
+        font-size: 1.75rem;
+    }
+
+
+#Container_txt_Beneficios .Right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*__Imagen__*/
+#Container_txt_Beneficios .Left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Resources/Sesion-Legado-Educativo-2022-423.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#BenefiFilter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Móviles*/
+@media (max-width: 767px) {
+    #Container_txt_Beneficios {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*Tabletas*/
+@media (min-width: 768px) and (max-width:1023px) {
+    #Container_BeneficiosLE {
+        height: 90vh;
+    }
+}
+/*Portátiles*/
+@media (min-width: 1024px) and (max-width:1280px) {
+    #Container_BeneficiosLE {
+        height: 90vh;
+    }
+}
+/*Escritorio*/
+@media (min-width: 1281px) {
+}

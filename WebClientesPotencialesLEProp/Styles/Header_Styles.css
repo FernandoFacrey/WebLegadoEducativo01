@@ -1,0 +1,347 @@
+﻿/*--------------------------------------------------*/
+/*----- Fernando Facio Reyes -- Gya-Contsulting ----*/
+/*--------------------------------------------------*/
+
+.Header_Container {
+    width: 100%;
+}
+
+.General_Container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container_Header {
+    height: auto;
+}
+
+.container_Opt_Img {
+    border: none;
+    background-color: #302c26;
+    display: flex;
+}
+
+.dv_Panel_Header {
+    width: -webkit-fill-available;
+    z-index: 10;
+    position: absolute;
+    background-color: #5c5953;
+    display: flex;
+    justify-content: center;
+    padding: 1.25%;
+}
+
+.dv_Container_Certificados {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dv_Container_Conoce {
+    display: flex;
+    justify-content: flex-start;
+    width: 66%;
+}
+
+.container_txt {
+    margin: 0;
+    padding-left: 2%;
+    width: 25%;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.2);
+}
+
+
+.dv_img_Logo {
+    min-width: 15%;
+    width: 12.5%;
+    max-width: 20%;
+}
+
+.img_Logo {
+    width: 100%;
+    display: block;
+}
+
+.container_Menu_Options {
+    width: 85%;
+    position: relative;
+}
+
+.dv_MenuOpts_Header {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.dv_btn_Menu {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    width: initial;
+    padding-bottom: 0.6%;
+    border-bottom: .2vw solid transparent;
+}
+
+.dv_btn_Menu_selected {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    width: initial;
+    padding-bottom: 0.6%;
+    border-bottom: .2vw solid #FFF500;
+}
+
+.Btn_Menu {
+    padding: 0 1.10vw;
+    cursor: pointer;
+    border: none;
+    font-size: calc(.75vw + 0.1rem);
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+    .Btn_Menu:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+.div_txt {
+    display: flex;
+    padding-bottom: 6%;
+    white-space: nowrap;
+}
+
+.div_txt-sub {
+    margin-bottom: 7%;
+}
+
+.text {
+    color: white;
+    font-size: calc(.75vw + 0.25rem);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text-sub {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-style: normal;
+    transition: 0.5s;
+    white-space: initial;
+    text-align: initial;
+    font-size: calc(.70vw + 0.1rem);
+    display: block;
+}
+
+    .text-sub:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+.Container_Btn_MenuMoviles {
+    display: none;
+}
+
+.Container_Btn_volverMenuMoviles {
+    display: none;
+}
+/*Moviles*/
+@media only screen and (max-width: 576px) and (min-width: 300px) {
+    .Container_Btn_volverMenuMoviles {
+        display: block;
+    }
+
+    .Btn_volverMenuMoviles {
+        width: 100%;
+        color: #ffffff;
+        font-size: 5vw;
+        padding: 5%;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color: #ffffff;
+        text-align: center;
+        display: block;
+        transition: 0.5s;
+    }
+
+        .Btn_volverMenuMoviles:hover {
+            color: black;
+            background-color: white;
+        }
+
+    .General_Container {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .container_Header {
+        height: auto;
+    }
+
+    .container_Opt_Img {
+        position: relative;
+        border: none;
+        background-color: #302c26;
+        display: flex;
+    }
+
+    /*#region Opciones */
+    .dv_Panel_Header {
+        position:fixed;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 75%;
+        height: 100vh;
+        justify-content: flex-start;
+        padding: 0%;
+        overflow: scroll;
+    }
+
+    .dv_Container_Certificados {
+        display: grid;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .dv_Container_Conoce {
+        display: grid;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .container_txt {
+        display: block;
+        height: min-content;
+        width: 100%;
+        border: none;
+        padding: 0%;
+    }
+    /*#endregion */
+
+
+    .dv_img_Logo {
+        width: 60%;
+        min-width: 50%;
+        max-width: 75%;
+    }
+
+    .div_txt {
+        padding-bottom: 0%;
+        white-space: nowrap;
+    }
+
+    .div_txt-sub {
+        margin-bottom: 0%;
+    }
+
+    .text {
+        color: white;
+        font-size: 3.5vw;
+        background-color: rgba(64, 59, 51, 0.5);
+        padding: 5%;
+        width: 100%;
+    }
+
+    .text-sub {
+        width: 100%;
+        color: #ffffff;
+        font-size: 5vw;
+        padding: 10% 2%;
+    }
+
+        .text-sub:hover {
+            color: black;
+            background-color: white;
+        }
+
+
+    .container_Menu_Options {
+        z-index: 9;
+        position: fixed;
+        top: 10vh;
+        right: 0;
+        width: 50vw;
+        height: 90vh;
+        background-color: #302c26;
+        display: block;
+    }
+
+    .dv_MenuOpts_Header {
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .dv_btn_Menu {
+        justify-content: flex-start;
+        display: flex;
+        align-items: flex-end;
+        width: initial;
+        padding-bottom: 0%;
+    }
+
+    .Btn_Menu {
+        text-align: left;
+        padding: 10%;
+        width: 100%;
+        border: none;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+
+        .Btn_Menu:hover {
+            background-color: white;
+            color: black;
+        }
+
+    .dv_btn_Menu_selected {
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        width: initial;
+        padding-bottom: 0.6%;
+        border-bottom: .2vw solid #FFF500;
+    }
+
+    .Container_Btn_MenuMoviles {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+        padding: 0% 5%;
+        display: grid;
+        align-content: center;
+    }
+
+    .Btn_MenuMoviles {
+        background-image: url(../Resources/LineasPerfil_Blancas.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+        cursor: pointer;
+        border: none;
+        width: 10vw;
+        height: 10vw;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+
+        .Btn_MenuMoviles:hover {
+            filter: brightness(0.75);
+        }
+}
+
+/*Tabletas*/
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+}

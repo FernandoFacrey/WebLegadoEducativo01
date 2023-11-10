@@ -1,0 +1,119 @@
+﻿/*--------------------------------------------------*/
+/*----- Fernando Facio Reyes -- Gya-Contsulting ----*/
+/*--------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    transition: 0.2s;
+    transition: opacity 1s ease-in-out;
+    /*border:.1vw solid red;*/
+}
+
+@media screen {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/*----------Inicio_Btn_ChatBot----------*/
+.buttonChatBot {
+    border: none;
+    background-color: #fff500;
+    border-radius: 3vw;
+    padding: .5%;
+    width: 5vw;
+    font-weight: 600;
+    font-size: 1vw;
+    color: #6F6910;
+    transition: .5s;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 10;
+}
+
+    .buttonChatBot:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+/*----------Fin_Btn_ChatBot----------*/
+
+.Principal_Container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+    .Principal_Container::-webkit-scrollbar {
+        display: none;
+    }
+
+
+.Body_Container {
+    width: 100%;
+}
+
+.Footer_Container {
+    width: 100%;
+}
+
+/*----------Inicio_Btn_Solicita_Informacion----------*/
+#Container_BtnSolicitaInformacion {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: auto;
+}
+
+    #Container_BtnSolicitaInformacion > .BtnSolicitaInformacion {
+        cursor: pointer;
+        border: none;
+        border-radius: 10vw;
+        width: max-content;
+        height: 35%;
+        padding: 2%;
+        font-size: .9vw;
+        font-weight: 600;
+        background-color: #fff500;
+        color: #000000;
+        transition: 0.6s;
+    }
+
+        #Container_BtnSolicitaInformacion > .BtnSolicitaInformacion:hover {
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+/*Moviles*/
+@media only screen and (max-width: 576px) and (min-width: 300px) {
+
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    #Container_BtnSolicitaInformacion {
+        position: fixed;
+        background-color: #302c26;
+        top: 0;
+        right: 0;
+        height: 10vh;
+        width: 50vw;
+        z-index: 10;
+    }
+
+        #Container_BtnSolicitaInformacion > .BtnSolicitaInformacion {
+            display: block;
+            padding: 2%;
+            font-size: 3vw;
+        }
+}
+/*----------Fin_Btn_Solicita_Informacion----------*/
