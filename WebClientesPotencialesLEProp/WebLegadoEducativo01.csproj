@@ -80,79 +80,47 @@
     <Content Include="ConoceMasOtrosPos.aspx" />
     <Content Include="Global.asax" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <None Include="Resources\Bachillerato01.jpg" />
-    <None Include="Resources\Posgrado01.jpg" />
-    <None Include="Resources\Profesional01.jpg" />
     <Content Include="MasInfoMDO.aspx" />
     <Content Include="QueEs.aspx" />
-    <Content Include="Resources\2018-admisiones-y-becas-posgrados-hero_0.jpg" />
-    <Content Include="Resources\2018-ciencias-de-la-salud-maestria-en-psicologia-clinica-hero.jpg" />
-    <Content Include="Resources\2018-ciencias-de-la-salud-talleres-y-laboratorios.jpg" />
-    <Content Include="Resources\2018-negocios-programas-maestria-en-desarrollo-organizacional-y-cambio-en-linea-hero_0.jpg" />
-    <Content Include="Resources\2018-prepa-bachillerato-bicultural-hero.jpg" />
-    <Content Include="Resources\2019-Negocios-Maestria-en-Administracion-hero_0.jpg" />
-    <Content Include="Resources\2021-Vicsa_0.png" />
-    <Content Include="Resources\2021_IB_bachillerato.jpg" />
-    <Content Include="Resources\2021_multicultural_bachillerato.jpg" />
     <Content Include="Resources\31714822306_6150d065c7_o.jpg" />
-    <Content Include="Resources\51388109927_e28eeb3f3d_k.jpg" />
     <Content Include="Resources\51388874611_74a0764b6c_k.jpg" />
     <Content Include="Resources\51388889251_041cf135fc_k.jpg" />
-    <Content Include="Resources\51389636919_a4b3eeb881_k.jpg" />
     <Content Include="Resources\51389728355_91ef306ceb_k.jpg" />
     <Content Include="Resources\51389823635_f8a30160f3_k.jpg" />
     <Content Include="Resources\51402728656_88e544dcc9_k.jpg" />
     <Content Include="Resources\51404373587_444d445934_k.jpg" />
-    <Content Include="Resources\51406153665_828be450c1_k.jpg" />
-    <Content Include="Resources\51407216763_5502e40721_k.jpg" />
-    <Content Include="Resources\51407247429_6defc905df_k.jpg" />
     <Content Include="Resources\51408936851_9cd8fc30a9_k.jpg" />
-    <Content Include="Resources\52648284301_35a89bc592_k.jpg" />
-    <Content Include="Resources\BeneficiosLegadoEducativo.jpg" />
-    <Content Include="Resources\Captura de pantalla 2023-07-21 a la%28s%29 3.23.12 p.m..png" />
-    <Content Include="Resources\Captura de pantalla 2023-07-21 a la%28s%29 3.40.38 p.m..png" />
-    <Content Include="Resources\Copia de Testimonio Luis Meneses.mp4" />
-    <Content Include="Resources\Copia de Testimonios_1-01.jpg" />
-    <Content Include="Resources\Copia de Testimonios_2-02.jpg" />
-    <Content Include="Resources\Copia de Testimonios_3-03.jpg" />
-    <Content Include="Resources\Copia de Testimonios_4-07.jpg" />
-    <Content Include="Resources\Copia de Testimonios_5-08.jpg" />
-    <Content Include="Resources\Copia de Testimonios_6-10.jpg" />
-    <Content Include="Resources\Copia de Testimonios_7-12.jpg" />
-    <Content Include="Resources\Copia de Testimonios_8-13.jpg" />
-    <Content Include="Resources\CRGS-COVER-1280x800.png" />
-    <Content Include="Resources\CRGS-UDEM-Solar.jpg" />
+    <Content Include="Resources\Cerrar.png" />
+    <Content Include="Resources\Copia_de_Testimonio_Luis_Meneses.mp4" />
     <Content Include="Resources\DSC05180-Edit.jpg" />
     <Content Include="Resources\DSC05235-Edit.jpg" />
-    <Content Include="Resources\Hero-Admisiones.png" />
-    <Content Include="Resources\Imagen-Legado-2prueba.jpg" />
-    <Content Include="Resources\Imagen-Legado-3.jpg" />
-    <Content Include="Resources\Imagen-Legado-4.jpg" />
-    <Content Include="Resources\LegadoEducativo-hero-2022.jpg" />
+    <Content Include="Resources\entriopia1.jpg" />
+    <Content Include="Resources\IconoFlecha.png" />
+    <Content Include="Resources\IconoFlechaNegra.png" />
+    <Content Include="Resources\Icons\Beneficios_1.png" />
+    <Content Include="Resources\Icons\Beneficios_2.png" />
+    <Content Include="Resources\Icons\Beneficios_3.png" />
+    <Content Include="Resources\Icons\Beneficios_4.png" />
+    <Content Include="Resources\Icons\Beneficios_5.png" />
+    <Content Include="Resources\Icons\Beneficios_6.png" />
+    <Content Include="Resources\Legado-Educativo.png" />
+    <Content Include="Resources\LineasPerfil_Blancas.png" />
     <Content Include="Resources\logo.png" />
     <Content Include="Resources\Naranja4.png" />
-    <Content Include="Resources\perfil.png" />
-    <Content Include="Resources\QueEsLegado.jpg" />
-    <Content Include="Resources\Rocio Alanis-28.jpg" />
-    <Content Include="Resources\Sesion Legado 2019-202.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-129 %281%29.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-231.jpg" />
+    <Content Include="Resources\Sesion-Legado-2019-202.jpg" />
+    <Content Include="Resources\Sesion-Legado-2019-96.jpg" />
+    <Content Include="Resources\Sesion-Legado-Educativo-2022-231.jpg" />
+    <Content Include="Resources\Sesion-Legado-Educativo-2022-234.jpg" />
+    <Content Include="Resources\Sesion-Legado-Educativo-2022-239-%283%29.jpg" />
+    <Content Include="Resources\Sesion-Legado-Educativo-2022-423.jpg" />
+    <Content Include="Resources\Sesion-Legado-Educativo-2022-6.jpg" />
+    <Content Include="Resources\Sesion-Legado-Educativo-2022-68.jpg" />
     <Content Include="Resources\Sesion_Legado_Educativo_2022-171.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-20.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-250.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-348.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-39.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-423.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-6.jpg" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-68.jpg" />
-    <Content Include="Resources\SoliLE.jpg" />
-    <Content Include="Resources\thumbnail_Sesion Legado Educativo 2022-233.jpg" />
     <Content Include="Resources\Vision2ciruclo_0.jpg" />
     <Content Include="Resources\Visioncirculo1.png" />
     <Content Include="Resources\Vídeo_LE_Testimonio_abuelo.mp4" />
     <Content Include="Scripts\JScriptHome.js" />
     <Content Include="Scripts\JScriptOcultaMenu.js" />
-    <Content Include="Resources\Sesion Legado Educativo 2022-239 %283%29.jpg" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -169,40 +137,6 @@
     <Content Include="Styles\WebStyles.css" />
     <Content Include="Testimonios.aspx" />
     <Content Include="VisionUDEM.aspx" />
-    <Content Include="Web References\WSConClientePotencial\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <Content Include="Web References\WSConClientePotencial\CsClientePotencial1.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <None Include="Web References\WSConClientePotencial\WSConClientePotencial.disco" />
-    <Content Include="Web References\WSConsUsuext\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <None Include="Web References\WSConClientePotencial\WSConClientePotencial.wsdl" />
-    <Content Include="Web References\WSConsUsuext\CsConUsuExt1.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <None Include="Web References\WSConsUsuext\WSConsUsuext.disco" />
-    <Content Include="Web References\WSInsertaClientePotencial\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <None Include="Web References\WSConsUsuext\WSConsUsuext.wsdl" />
-    <Content Include="Web References\WSInsertaClientePotencial\Respuesta1.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <None Include="Web References\WSInsertaClientePotencial\WSInsertaClientePotencial.disco" />
-    <Content Include="Web References\WSInsUsuarioExterno\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <Content Include="Web References\WSInsUsuarioExterno\Respuesta1.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <None Include="Web References\WSInsUsuarioExterno\WSInsUsuarioExterno.disco" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -336,22 +270,7 @@
     <Compile Include="VisionUDEM.aspx.designer.cs">
       <DependentUpon>VisionUDEM.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Web References\WSConClientePotencial\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\WSConsUsuext\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\WSInsertaClientePotencial\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\WSInsUsuarioExterno\Reference.cs">
+    <Compile Include="Web References\WS_LE_ConsTestimonios\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -367,8 +286,14 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Page.Master" />
-    <None Include="Web References\WSInsertaClientePotencial\WSInsertaClientePotencial.wsdl" />
-    <None Include="Web References\WSInsUsuarioExterno\WSInsUsuarioExterno.wsdl" />
+    <Content Include="Web References\WS_LE_ConsTestimonios\CsTestimonios.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\WS_LE_ConsTestimonios\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WS_LE_ConsTestimonios\WS_LE_ConsTestimonios.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -387,55 +312,23 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://localhost/DesarrolloUDEM/WSLEClientesPotenciales/WSInsertaClientePotencial.asmx">
+    <WebReferenceUrl Include="https://eventosudemtst.udem.edu.mx/UDEMDESA/LegadoEducativo/WS_LegadoEducativo/WS_LE_ConsTestimonios.asmx%3fwsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WSInsertaClientePotencial\</RelPath>
-      <UpdateFromURL>http://localhost/DesarrolloUDEM/WSLEClientesPotenciales/WSInsertaClientePotencial.asmx</UpdateFromURL>
+      <RelPath>Web References\WS_LE_ConsTestimonios\</RelPath>
+      <UpdateFromURL>https://eventosudemtst.udem.edu.mx/UDEMDESA/LegadoEducativo/WS_LegadoEducativo/WS_LE_ConsTestimonios.asmx%3fwsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
       </CachedDynamicPropName>
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>WebClientesPotencialesLEProp_WSInsertaClientePotencial_WSInsertaClientePotencial</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://localhost/DesarrolloUDEM/WSUDEM/WSConClientePotencial.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WSConClientePotencial\</RelPath>
-      <UpdateFromURL>http://localhost/DesarrolloUDEM/WSUDEM/WSConClientePotencial.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>WebClientesPotencialesLEProp_WSConClientePotencial_WSConClientePotencial</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://localhost/DesarrolloUDEM/WSUDEM/WSConsUsuext.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WSConsUsuext\</RelPath>
-      <UpdateFromURL>http://localhost/DesarrolloUDEM/WSUDEM/WSConsUsuext.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>WebClientesPotencialesLEProp_WSConsUsuext_WSConsUsuext</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://localhost/DesarrolloUDEM/WSUDEM/WSInsUsuarioExterno.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WSInsUsuarioExterno\</RelPath>
-      <UpdateFromURL>http://localhost/DesarrolloUDEM/WSUDEM/WSInsUsuarioExterno.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>WebClientesPotencialesLEProp_WSInsUsuarioExterno_WSInsUsuarioExterno</CachedSettingsPropName>
+      <CachedSettingsPropName>WebLegadoEducativo01_WS_LE_ConsTestimonios_WS_LE_ConsTestimonios</CachedSettingsPropName>
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

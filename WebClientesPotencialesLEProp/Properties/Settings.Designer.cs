@@ -26,41 +26,11 @@ namespace WebLegadoEducativo01.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/DesarrolloUDEM/WSLEClientesPotenciales/WSInsertaClientePotencial" +
-            ".asmx")]
-        public string WebClientesPotencialesLEProp_WSInsertaClientePotencial_WSInsertaClientePotencial {
+        [global::System.Configuration.DefaultSettingValueAttribute("http://eventosudemtst.udem.edu.mx:8087/UDEMDESA/LegadoEducativo/WS_LegadoEducativ" +
+            "o/WS_LE_ConsTestimonios.asmx")]
+        public string WebLegadoEducativo01_WS_LE_ConsTestimonios_WS_LE_ConsTestimonios {
             get {
-                return ((string)(this["WebClientesPotencialesLEProp_WSInsertaClientePotencial_WSInsertaClientePotencial"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/DesarrolloUDEM/WSUDEM/WSConsUsuext.asmx")]
-        public string WebClientesPotencialesLEProp_WSConsUsuext_WSConsUsuext {
-            get {
-                return ((string)(this["WebClientesPotencialesLEProp_WSConsUsuext_WSConsUsuext"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/DesarrolloUDEM/WSUDEM/WSInsUsuarioExterno.asmx")]
-        public string WebClientesPotencialesLEProp_WSInsUsuarioExterno_WSInsUsuarioExterno {
-            get {
-                return ((string)(this["WebClientesPotencialesLEProp_WSInsUsuarioExterno_WSInsUsuarioExterno"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/DesarrolloUDEM/WSUDEM/WSConClientePotencial.asmx")]
-        public string WebClientesPotencialesLEProp_WSConClientePotencial_WSConClientePotencial {
-            get {
-                return ((string)(this["WebClientesPotencialesLEProp_WSConClientePotencial_WSConClientePotencial"]));
+                return ((string)(this["WebLegadoEducativo01_WS_LE_ConsTestimonios_WS_LE_ConsTestimonios"]));
             }
         }
     }

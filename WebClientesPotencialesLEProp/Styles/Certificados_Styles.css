@@ -1,125 +1,211 @@
-﻿.filter {
-    display: none;
-    z-index: 1;
-    position: absolute;
-    background-color: rgba(0,0,0, .5);
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+﻿.Container_ConoceMasLE {
+    position: relative;
 }
 
-.Container_ConoceMasLE {
+/*#region Img */
+.dv_container_img {
+    box-sizing: border-box;
+    margin: 10rem 0;
+    width: 27.5rem;
+    height: 27.5rem;
     position: relative;
-    height: 95vh;
 }
+
+    .dv_container_img .circle {
+        position: absolute;
+        border-radius: 100vw;
+        background-color: #fff555;
+    }
+
+    .dv_container_img .circle_01 {
+        bottom: -6.5rem;
+        right: -2.5rem;
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .dv_container_img .circle_02 {
+        bottom: -1.75rem;
+        left: -1.75rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .dv_container_img .circle_03 {
+        z-index: -1;
+        right: 0;
+        top: 0;
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .dv_container_img .circle_04 {
+        top: -1rem;
+        left: -1rem;
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    .dv_container_img img {
+        border-radius: 100vw;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+/*#endregion */
+
 
 /*__Texto__*/
 .Container_txt_ConoceMasLE {
+    box-sizing: border-box;
     height: 100%;
     position: relative;
     z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #2d2f2f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
 }
 
     .Container_txt_ConoceMasLE .txt_ConoceMas {
         z-index: 3;
-        padding: 15%;
         width: 100%;
     }
 
         .Container_txt_ConoceMasLE .txt_ConoceMas h1 {
-            border-bottom: 0.4rem solid white;
-            padding: 2.5% 0;
+            border-bottom: 0.1rem solid black;
+            padding: 1rem 0;
             font-size: 1.3rem;
         }
 
         .Container_txt_ConoceMasLE .txt_ConoceMas p {
-            margin: 5% 0;
+            margin: 1rem 0;
             font-size: 1.1rem;
         }
 
-    /*__Imagenes__*/
+
+
     .Container_txt_ConoceMasLE .Right {
-        position: relative;
-        width: 50%;
-        height: 100%;
-        display: flex;
+        box-sizing: border-box;
+        display: grid;
         justify-content: center;
         align-items: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        height: 100%;
     }
 
     .Container_txt_ConoceMasLE .Left {
-        position: relative;
-        width: 50%;
-        height: 100%;
-        display: flex;
+        box-sizing: border-box;
+        display: grid;
         justify-content: center;
         align-items: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        padding: 15%;
     }
 
-/*__Boton__*/
-#Container_BtnBlanco > .BtnBlanco {
+/*#region Button */
+#Container_BtnConoceMas .BtnConoceMas {
     cursor: pointer;
-    border: 0.1vw solid #ffffff;
+    border: 0.1rem solid black;
     border-radius: 100vw;
     padding: 1.5% 4.5%;
     font-size: 1.1rem;
     font-weight: 600;
     background-color: transparent;
-    color: #ffffff;
+    color: black;
     transition: 0.5s;
 }
 
-    #Container_BtnBlanco > .BtnBlanco:hover {
-        border: .1vw solid #ffffff;
-        background-color: #ffffff;
-        color: #000000;
+    #Container_BtnConoceMas .BtnConoceMas:hover {
+        border: .1vw solid black;
+        background-color: black;
+        color: white;
     }
+/*#endregion */
+
+
 
 /*Móviles*/
 @media (max-width: 767px) {
-    .filter {
-        display: block;
-    }
-    .Container_txt_ConoceMasLE .Right {
-        width: 100%;
-        height: 100%;
-        position: absolute;
+    /*#region Img */
+    .dv_container_img {
+        margin: 15% 0;
+        width: 15.5rem;
+        height: 15.5rem;
     }
 
-    .Container_txt_ConoceMasLE .Left {
-        width: 100%;
-        height: 100%;
-        position: absolute;
+        .dv_container_img .circle_01 {
+            bottom: -4.5rem;
+            right: -.5rem;
+            width: 8rem;
+            height: 8rem;
+        }
+
+        .dv_container_img .circle_02 {
+            bottom: -2.5rem;
+            left: -.5rem;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .dv_container_img .circle_03 {
+            z-index: -1;
+            right: 0;
+            top: 0;
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+
+        .dv_container_img .circle_04 {
+            top: -.5rem;
+            left: -.5rem;
+            width: 5rem;
+            height: 5rem;
+        }
+    /*#endregion */
+
+    .Container_txt_ConoceMasLE {
+        grid-template-columns: 1fr;
     }
 }
 /*Tabletas*/
 @media (min-width: 768px) and (max-width:1023px) {
-    .filter {
-        display: block;
+    /*#region Img */
+    .dv_container_img {
+        margin: 15% 0;
+        width: 18.5rem;
+        height: 18.5rem;
     }
 
-    .Container_txt_ConoceMasLE .Right {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-    }
+        .dv_container_img .circle_01 {
+            bottom: -7.5rem;
+            right: -.5rem;
+            width: 12rem;
+            height: 12rem;
+        }
 
-    .Container_txt_ConoceMasLE .Left {
-        width: 100%;
-        height: 100%;
-        position: absolute;
+        .dv_container_img .circle_02 {
+            bottom: -2.5rem;
+            left: -.5rem;
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .dv_container_img .circle_03 {
+            z-index: -1;
+            right: 0;
+            top: 0;
+            width: 4.5rem;
+            height: 4.5rem;
+        }
+
+        .dv_container_img .circle_04 {
+            top: -.5rem;
+            left: -.5rem;
+            width: 6.5rem;
+            height: 6.5rem;
+        }
+    /*#endregion */
+    .Container_txt_ConoceMasLE {
+        grid-template-columns: 1fr;
     }
 }
 /*Portátiles*/

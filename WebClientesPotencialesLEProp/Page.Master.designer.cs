@@ -40,6 +40,33 @@ namespace WebClientesPotencialesLEProp {
         protected global::System.Web.UI.WebControls.Button Btn_ChatBot;
         
         /// <summary>
+        /// Container_Btn_MenuMoviles_Cerrar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Container_Btn_MenuMoviles_Cerrar;
+        
+        /// <summary>
+        /// Btn_MenuMoviles control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_MenuMoviles;
+        
+        /// <summary>
+        /// container_Menu_Options control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl container_Menu_Options;
+        
+        /// <summary>
         /// Pnl_Menu_Options control.
         /// </summary>
         /// <remarks>
@@ -173,6 +200,15 @@ namespace WebClientesPotencialesLEProp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel Pnl_Header;
+        
+        /// <summary>
+        /// Btn_volver control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_volver;
         
         /// <summary>
         /// dv_Container_Conoce control.

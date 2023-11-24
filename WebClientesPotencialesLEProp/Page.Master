@@ -55,7 +55,7 @@
                                 </asp:Panel>
                             </div>
                             <div id="Container_BtnSolicitaInformacion">
-                                <asp:Button ID="Btn_SolicitaInformacion" runat="server" Text="Solicita información" CssClass="BtnSolicitaInformacion" OnClick="Btn_SolicitaInformacion_Click" />
+                                <asp:Button ID="Btn_SolicitaInformacion" runat="server" Text="Adquiere tu legado" CssClass="BtnSolicitaInformacion" OnClick="Btn_SolicitaInformacion_Click" />
                             </div>
                         </div>
                         <asp:Panel ID="Pnl_Header" runat="server">
@@ -168,11 +168,15 @@
                             <a>Universidad de Monterrey</a>
                             <div class="Container_Txt_Img">
                                 <img src="https://www.udem.edu.mx/themes/custom/udm/svg/icono-footer-conmutador.svg" />
-                                <a>Conmutador: +52 (81) 8215-1000</a>
+                                <div>
+                                    <a>Conmutador:</a>&nbsp;<a href="tel:+528182151000" class="link"> +52 (81) 8215-1000</a>
+                                </div>
                             </div>
                             <div class="Container_Txt_Img">
                                 <img src="https://www.udem.edu.mx/themes/custom/udm/svg/icono-footer-adminisiones.svg" />
-                                <a>Admisiones: +52 (81) 8215-1010</a>
+                                <div>
+                                    <a>Admisiones:</a>&nbsp;<a href="tel:+528182151010" class="link"> +52 (81) 8215-1010</a>
+                                </div>
                             </div>
                             <div class="Container_Txt_Img">
                                 <img src="https://www.udem.edu.mx/themes/custom/udm/svg/icono-footer-direccion.svg" />

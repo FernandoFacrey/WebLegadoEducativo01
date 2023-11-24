@@ -1,22 +1,4 @@
-﻿.ImgTesti {
-    z-index: 2;
-    bottom: -4vw;
-    right: 20%;
-    width: 25vw;
-    height: 25vw;
-    position: absolute;
-    border-radius: 100vw;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-    .ImgTesti > img {
-        height: 100%;
-    }
-
-#Container_testimoniosLE {
+﻿v#Container_testimoniosLE {
 }
 
 #testimoniosLE > .title_Testimonios {
@@ -27,9 +9,6 @@
 
 .Container_Btn_Testimonios {
     z-index: 3;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin: 5%;
     display: flex;
     justify-content: center;
 }
@@ -40,28 +19,41 @@
         border-radius: 100vw;
         cursor: pointer;
         font-size: 1rem;
-        background-color: transparent;
         width: 1.5rem;
         height: 1.5rem;
+        padding: 1.5rem;
+        background-color: transparent;
+        z-index: 1;
+        background-image: url(../Resources/IconoFlechaNegra.png);
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 0.4s;
     }
 
         .Container_Btn_Testimonios .Btn_Testimonios:hover {
             background-color: rgba(0, 0, 0, 0.15);
         }
 
+    .Container_Btn_Testimonios .Btn_AnteriorTesti {
+        transform: scaleX(-1)
+    }
 
     .Container_Btn_Testimonios .Btn_Testimonios_Disable {
         border: 0.15vw solid darkgrey;
         color: darkgrey;
-        padding: 2%;
         border-radius: 100vw;
         cursor: pointer;
-        font-size: 1.5rem;
+        font-size: 1rem;
         background-color: transparent;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 1.5rem;
     }
 
 
 #Container_Slider_Testimonios {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,46 +61,73 @@
 
 #Slider_Testimonios {
     z-index: 1;
-    position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
 
 #Container_card_Testimonios {
     position: relative;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    width: 50rem;
+    height: 25rem;
+    padding: 0;
 }
 
-    #Container_card_Testimonios .circuloMorado {
+.card_02 {
+    position: absolute;
+    background-color: #c3abff;
+    height: 100%;
+    width: 100%;
+    top: -.5rem;
+    left: -.5rem;
+    clip-path: polygon(4rem 0%, 100% 0, 100% 4rem, 100% 100%, 0 100%, 0% 4rem);
+}
+
+#card_Testimonios {
+    position: relative;
+    background-color: #04b687;
+    clip-path: polygon(4rem 0%, 100% 0, 100% 4rem, 100% 100%, 0 100%, 0% 4rem);
+    height: 100%;
+}
+
+    #card_Testimonios .Comilla {
+        position: absolute;
         z-index: -1;
-        display: block;
-        background-color: #c3abff;
-        border-radius: 100vw;
-        width: 80vw;
-        height: 80vw;
+        padding: 1% 5%;
+        width: min-content;
+        height: min-content;
+        font-size: 7.5rem;
+        color: rgba(0, 156, 115, .75);
     }
 
-    #Container_card_Testimonios .circuloVerde {
-        background-color: #04b687;
-        display: none;
-        position: absolute;
+.ImgTesti {
+    position: absolute;
+    z-index: 5;
+    width: 17.5rem;
+    height: 17.5rem;
+    right: -7.5rem;
+    bottom: -7.5rem;
+}
+
+    .ImgTesti > img {
+        object-fit: cover;
         border-radius: 100vw;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 .75rem .1rem rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 .75rem .1rem rgba(0, 0, 0, 0.5);
     }
 
 .container_Txt_Testimonios {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
+    z-index: 5;
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 10%;
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    box-sizing: border-box;
 }
 
 .Txt_Testimonios {
@@ -116,81 +135,127 @@
     word-wrap: break-word;
     font-style: italic;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .container_cliente {
-    padding: 2% 0%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    z-index: 1;
-    border-top: 0.2vw solid #ccc502;
-    word-wrap: break-word;
-}
-
-.cliente_Testimonios {
-    width: 100%;
+    font-size: 1rem;
     font-style: italic;
     color: #fff;
-    font-size: .75rem;
+    margin-top: 3%;
+    padding: .75rem 0;
+    z-index: 1;
+    border-top: .5rem solid transparent;
+    border-image: linear-gradient(to right, #ccc502 50%, transparent 50%) 1;
+    border-image-slice: 1;
+    white-space: nowrap;
+    width: min-content;
 }
 
 /*__Video_01__*/
 #container_VideoTesti {
-    padding-top: 10%;
+    padding: 10%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
 }
 
     #container_VideoTesti > .video {
-        box-shadow: 0px 0px 1.5vw 0px rgba(0, 0, 0, 0.5);
-        -webkit-box-shadow: 0px 0px 1.5vw 0px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 0px 0px 1.5vw 0px rgba(0, 0, 0, 0.5);
-        width: 50%;
-        margin: 0% 5%;
+        padding: 10%;
+        display: block;
+        margin: auto 0;
     }
 
         #container_VideoTesti > .video > video {
             display: block;
+            box-sizing: border-box;
             width: 100%;
+            box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, 0.5);
         }
 
-/*__Video_02__*/
-#container_VideoTesti02 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+/*Móviles*/
+@media (max-width: 767px) {
 
-    #container_VideoTesti02 > video {
-        width: 60%;
-        margin: 5% 10%;
+    .card_02 {
+        clip-path: polygon(2rem 0%, 100% 0, 100% 2rem, 100% 100%, 0 100%, 0% 2rem);
     }
 
-/*Moviles*/
+    #card_Testimonios {
+        clip-path: polygon(2rem 0%, 100% 0, 100% 2rem, 100% 100%, 0 100%, 0% 2rem);
+    }
+
+    .Txt_Testimonios {
+        font-size: 1rem;
+    }
+
+    #Container_card_Testimonios {
+        width: 20rem;
+        height: auto;
+    }
+
+    .ImgTesti {
+        display: none;
+        width: 10rem;
+        height: 10rem;
+        right: -2.5rem;
+        bottom: -2.5rem;
+    }
+
+    .container_cliente {
+        width: 75%;
+        white-space: normal;
+    }
+
+    .container_Txt_Testimonios {
+        padding: 2rem;
+    }
+
+    .Container_Btn_Testimonios .Btn_Testimonios {
+        padding: 0;
+    }
+
+    .Container_Btn_Testimonios .Btn_Testimonios_Disable {
+        padding: 0;
+    }
+
+    #container_VideoTesti {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 425px) {
-    #testimoniosLE > .title_Testimonios {
-        font-size: .60rem;
-        padding: 10% 5%;
+    .container_cliente {
+        width: 50%;
+        white-space: normal;
     }
 
-    .Container_Btn_Testimonios {
-        margin: -1.75rem;
+    #Container_card_Testimonios {
+        width: 14rem;
     }
 }
-
 /*Tabletas*/
-@media (min-width: 426px) and (max-width:768px) {
-}
+@media (min-width: 768px) and (max-width:1023px) {
+    #Container_card_Testimonios {
+        width: 30rem;
+        height: 25rem;
+    }
 
-/*Portatiles*/
-@media (min-width: 769px) and (max-width:1024px) {
+    .ImgTesti {
+        width: 15rem;
+        height: 15rem;
+        right: -5rem;
+        bottom: -5rem;
+    }
 }
-
+/*Portátiles*/
+@media (min-width: 1024px) and (max-width:1280px) {
+    #Container_card_Testimonios {
+        width: 35rem;
+        height: 27.5rem;
+    }
+}
 /*Escritorio*/
-@media (min-width: 1025px) {
+@media (min-width: 1281px) {
 }

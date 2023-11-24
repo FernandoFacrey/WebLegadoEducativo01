@@ -6,20 +6,34 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="main" runat="server">
     <div class="Container_ConoceMasLE">
         <div class="Container_txt_ConoceMasLE">
-            <div class="filter"></div>
             <div class="Right">
-                <div class="txt_ConoceMas">
-                    <h1>Maestria en Administración</h1>
-                    <p>
-                        Desarrolla competencias y habilidades para la dirección y administración de empresas con una perspectiva global, competitiva y
-								transformadora.
-                    </p>
-                    <div id="Container_BtnBlanco">
-                        <asp:Button ID="Btn_ConoceMasMBA" runat="server" Text="Conoce más aqui" class="BtnBlanco" OnClick="Btn_ConoceMasMBA_Click" />
-                    </div>
+                <div class="dv_container_img">
+                    <div class="circle circle_01"></div>
+                    <div class="circle circle_02"></div>
+                    <div class="circle circle_03"></div>
+                    <div class="circle circle_04"></div>
+                    <img src="Resources/51388874611_74a0764b6c_k.jpg" alt="Alternate Text" style="object-position: 25% center;" />
                 </div>
             </div>
-            <div class="Left" style="background-image: url(Resources/51388874611_74a0764b6c_k.jpg)"></div>
+        <div class="Left">
+            <div class="txt_ConoceMas">
+                <h1>Maestría en Administración</h1>
+                <ul>
+                    <li>
+                        <p>Tiene la posición número tres en México, según el ranking de Expansión (2021).</p>
+                    </li>
+                    <li>
+                        <p>Ofrece una preparación para innovar y emprender dentro de un entorno competitivo.</p>
+                    </li>
+                    <li>
+                        <p>Desarrolla habilidades para dirigir organizaciones.</p>
+                    </li>
+                </ul>
+                <div id="Container_BtnConoceMas">
+                    <asp:Button ID="Btn_ConoceMasMBA" runat="server" Text="Conoce más aqui" class="BtnConoceMas" OnClick="Btn_ConoceMasMBA_Click" />
+                </div>
+            </div>
         </div>
+    </div>
     </div>
 </asp:Content>
