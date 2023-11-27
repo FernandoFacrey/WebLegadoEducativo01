@@ -10,148 +10,148 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="Beneficios.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe.config">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/csc.rsp">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/csi.exe">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/csi.exe.config">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/csi.rsp">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.AppContext.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Console.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Compression.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Pipes.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.AccessControl.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Claims.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
-      <publishTime>05/11/2023 12:17:58</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.ValueTuple.dll">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.dll">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe.config">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.rsp">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
-      <publishTime>05/11/2023 12:17:59</publishTime>
+      <publishTime>11/13/2023 07:36:35</publishTime>
     </File>
     <File Include="bin/WebClientesPotencialesLEProp.dll">
       <publishTime>04/10/2023 22:12:07</publishTime>
@@ -163,49 +163,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/10/2023 22:12:08</publishTime>
     </File>
     <File Include="bin/WebLegadoEducativo01.dll">
-      <publishTime>11/14/2023 16:23:06</publishTime>
+      <publishTime>11/24/2023 16:25:44</publishTime>
     </File>
     <File Include="bin/WebLegadoEducativo01.pdb">
-      <publishTime>11/14/2023 16:23:06</publishTime>
+      <publishTime>11/24/2023 16:25:44</publishTime>
     </File>
     <File Include="bin/WebLegadoEducativo01.XmlSerializers.dll">
-      <publishTime>11/14/2023 16:23:07</publishTime>
+      <publishTime>11/24/2023 16:25:45</publishTime>
+    </File>
+    <File Include="comoutilizarLE.aspx">
+      <publishTime>11/24/2023 12:18:00</publishTime>
     </File>
     <File Include="ConoceMasArquiHabi.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasArtDis.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasBicult.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasCarreras.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasInter.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasMBA.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasMDOC.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasMedi.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasMulti.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="ConoceMasOtrosPos.aspx">
-      <publishTime>11/07/2023 11:50:19</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="CrearCuenta.aspx">
       <publishTime>12/04/2022 17:03:36</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>05/11/2023 12:17:57</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="HomePerfil.aspx">
       <publishTime>12/14/2022 20:56:41</publishTime>
@@ -214,16 +217,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/30/2023 03:46:53</publishTime>
     </File>
     <File Include="MasInfoMDO.aspx">
-      <publishTime>11/07/2023 11:50:18</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Page.Master">
-      <publishTime>11/13/2023 16:53:22</publishTime>
+      <publishTime>11/24/2023 07:51:18</publishTime>
     </File>
     <File Include="PreCotizar.aspx">
       <publishTime>01/30/2023 03:44:48</publishTime>
     </File>
     <File Include="QueEs.aspx">
-      <publishTime>11/07/2023 11:50:18</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Resources/2018-admisiones-y-becas-posgrados-hero_0.jpg">
       <publishTime>11/07/2023 11:34:31</publishTime>
@@ -253,31 +256,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:34:31</publishTime>
     </File>
     <File Include="Resources/31714822306_6150d065c7_o.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51388109927_e28eeb3f3d_k.jpg">
       <publishTime>11/07/2023 11:35:04</publishTime>
     </File>
     <File Include="Resources/51388874611_74a0764b6c_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51388889251_041cf135fc_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51389636919_a4b3eeb881_k.jpg">
       <publishTime>11/07/2023 11:35:04</publishTime>
     </File>
     <File Include="Resources/51389728355_91ef306ceb_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51389823635_f8a30160f3_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51402728656_88e544dcc9_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51404373587_444d445934_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/51406153665_828be450c1_k.jpg">
       <publishTime>11/07/2023 11:35:04</publishTime>
@@ -289,7 +292,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:35:04</publishTime>
     </File>
     <File Include="Resources/51408936851_9cd8fc30a9_k.jpg">
-      <publishTime>11/14/2023 15:56:17</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/52648284301_35a89bc592_k.jpg">
       <publishTime>11/07/2023 11:35:04</publishTime>
@@ -307,7 +310,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:35:04</publishTime>
     </File>
     <File Include="Resources/Cerrar.png">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:32</publishTime>
     </File>
     <File Include="Resources/Copia de Testimonio Luis Meneses.mp4">
       <publishTime>11/07/2023 11:34:31</publishTime>
@@ -337,7 +340,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:34:31</publishTime>
     </File>
     <File Include="Resources/Copia_de_Testimonio_Luis_Meneses.mp4">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Resources/CRGS-COVER-1280x800.png">
       <publishTime>11/07/2023 11:34:31</publishTime>
@@ -346,19 +349,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:35:04</publishTime>
     </File>
     <File Include="Resources/DSC05180-Edit.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/DSC05235-Edit.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
+    </File>
+    <File Include="Resources/entriopia1.jpg">
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Resources/Hero-Admisiones.png">
       <publishTime>11/07/2023 11:34:31</publishTime>
     </File>
     <File Include="Resources/IconoFlecha.png">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/IconoFlechaNegra.png">
-      <publishTime>11/14/2023 16:20:00</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Beneficios_1.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Beneficios_2.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Beneficios_3.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Beneficios_4.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Beneficios_5.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Beneficios_6.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Resources/Icons/Paso 1.png">
+      <publishTime>11/24/2023 08:09:46</publishTime>
+    </File>
+    <File Include="Resources/Icons/Paso 2.png">
+      <publishTime>11/24/2023 08:09:46</publishTime>
+    </File>
+    <File Include="Resources/Icons/Paso 3.png">
+      <publishTime>11/24/2023 08:09:46</publishTime>
+    </File>
+    <File Include="Resources/Icons/Paso 4.png">
+      <publishTime>11/24/2023 08:09:46</publishTime>
     </File>
     <File Include="Resources/Imagen-Legado-2prueba.jpg">
       <publishTime>11/07/2023 11:34:31</publishTime>
@@ -369,17 +405,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Resources/Imagen-Legado-4.jpg">
       <publishTime>11/07/2023 11:34:31</publishTime>
     </File>
+    <File Include="Resources/Legado-Educativo.png">
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
     <File Include="Resources/LegadoEducativo-hero-2022.jpg">
       <publishTime>11/07/2023 11:34:31</publishTime>
     </File>
     <File Include="Resources/LineasPerfil_Blancas.png">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/logo.png">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Naranja4.png">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/perfil.png">
       <publishTime>11/07/2023 11:34:32</publishTime>
@@ -430,25 +469,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:35:04</publishTime>
     </File>
     <File Include="Resources/Sesion-Legado-2019-202.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
+    </File>
+    <File Include="Resources/Sesion-Legado-2019-96.jpg">
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Resources/Sesion-Legado-Educativo-2022-231.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
+    </File>
+    <File Include="Resources/Sesion-Legado-Educativo-2022-234.jpg">
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Resources/Sesion-Legado-Educativo-2022-239-%283%29.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Sesion-Legado-Educativo-2022-423.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Sesion-Legado-Educativo-2022-6.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Sesion-Legado-Educativo-2022-68.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Sesion_Legado_Educativo_2022-171.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/SoliLE.jpg">
       <publishTime>11/07/2023 11:34:32</publishTime>
@@ -457,49 +502,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:34:31</publishTime>
     </File>
     <File Include="Resources/Vision2ciruclo_0.jpg">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Visioncirculo1.png">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Resources/Vídeo_LE_Testimonio_abuelo.mp4">
-      <publishTime>11/14/2023 15:56:37</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Scripts/JScriptHome.js">
-      <publishTime>11/07/2023 11:50:32</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Scripts/JScriptOcultaMenu.js">
-      <publishTime>11/07/2023 11:50:32</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="SolicitudCompraLE.aspx">
       <publishTime>12/14/2022 21:12:33</publishTime>
     </File>
     <File Include="Styles/Beneficios_Styles.css">
-      <publishTime>11/07/2023 11:54:02</publishTime>
+      <publishTime>11/24/2023 07:22:18</publishTime>
     </File>
     <File Include="Styles/Certificados_Styles.css">
-      <publishTime>11/07/2023 12:03:15</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
+    </File>
+    <File Include="Styles/comoUtilizarLE_Styles.css">
+      <publishTime>11/24/2023 12:34:23</publishTime>
     </File>
     <File Include="Styles/Footer_Styles.css">
-      <publishTime>11/13/2023 16:58:27</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Styles/FormStyles.css">
       <publishTime>12/14/2022 20:45:13</publishTime>
     </File>
     <File Include="Styles/Header_Styles.css">
-      <publishTime>11/07/2023 11:54:04</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Styles/HomePerfilStyles.css">
       <publishTime>12/14/2022 20:55:31</publishTime>
     </File>
     <File Include="Styles/Home_Styles.css">
-      <publishTime>11/14/2023 13:59:45</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Styles/InicioCreaStyles.css">
       <publishTime>11/25/2022 10:18:33</publishTime>
     </File>
     <File Include="Styles/Master.css">
-      <publishTime>11/07/2023 11:54:04</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Styles/MasterStyles.css">
       <publishTime>03/20/2023 19:21:33</publishTime>
@@ -508,22 +556,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/20/2023 19:24:44</publishTime>
     </File>
     <File Include="Styles/QueEs_Styles.css">
-      <publishTime>11/07/2023 11:54:04</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Styles/Testimonios_Styles.css">
-      <publishTime>11/14/2023 16:20:09</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Styles/Vision_Styles.css">
-      <publishTime>11/07/2023 11:54:04</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Styles/WebStyles.css">
-      <publishTime>11/07/2023 11:54:04</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Testimonios.aspx">
-      <publishTime>11/14/2023 15:48:58</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="VisionUDEM.aspx">
-      <publishTime>11/07/2023 11:50:18</publishTime>
+      <publishTime>11/13/2023 07:36:33</publishTime>
     </File>
     <File Include="Web References/WSConClientePotencial/CsClientePotencial.datasource">
       <publishTime>12/13/2022 15:08:14</publishTime>
@@ -562,16 +610,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2023 11:34:32</publishTime>
     </File>
     <File Include="Web References/WS_LE_ConsTestimonios/CsTestimonios.datasource">
-      <publishTime>11/14/2023 13:37:01</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Web References/WS_LE_ConsTestimonios/Reference.map">
-      <publishTime>11/14/2023 13:36:58</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/14/2023 14:18:31</publishTime>
+      <publishTime>11/24/2023 16:25:46</publishTime>
     </File>
     <File Include="WebClientesPotenciales.aspx">
-      <publishTime>11/07/2023 11:50:18</publishTime>
+      <publishTime>11/24/2023 07:19:58</publishTime>
     </File>
   </ItemGroup>
 </Project>

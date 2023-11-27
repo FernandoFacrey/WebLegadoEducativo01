@@ -247,22 +247,13 @@ namespace WebClientesPotencialesLEProp {
         protected global::System.Web.UI.WebControls.Button Btn_Testimonios;
         
         /// <summary>
-        /// Btn_VisionUDEM control.
+        /// Btn_UDEM control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_VisionUDEM;
-        
-        /// <summary>
-        /// Btn_ConoceMas control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_ConoceMas;
+        protected global::System.Web.UI.WebControls.Button Btn_UDEM;
         
         /// <summary>
         /// Btn_PasosComprar control.

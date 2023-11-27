@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 using WebClientesPotencialesLEProp.Clases;
 
 namespace WebClientesPotencialesLEProp
@@ -183,6 +179,17 @@ namespace WebClientesPotencialesLEProp
         {
             Pnl_Header.Visible = false;
             Pnl_Menu_Options.Visible = true;
+        }
+
+        protected void Btn_UDEM_Click(object sender, EventArgs e)
+        {
+            string script = "window.open('https://www.udem.edu.mx/es/conoce/vision-udem', '_blank');";
+            ScriptManager.RegisterStartupScript(this, GetType(), "Redireccionar", script, true);
+        }
+
+        protected void Btn_PasosUsar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/comoutilizarLE.aspx");
         }
     }
 }

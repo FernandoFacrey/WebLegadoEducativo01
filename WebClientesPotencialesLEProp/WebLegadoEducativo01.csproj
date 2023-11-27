@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Beneficios.aspx" />
+    <Content Include="comoutilizarLE.aspx" />
     <Content Include="ConoceMasArquiHabi.aspx" />
     <Content Include="ConoceMasArtDis.aspx" />
     <Content Include="ConoceMasBicult.aspx" />
@@ -103,6 +104,10 @@
     <Content Include="Resources\Icons\Beneficios_4.png" />
     <Content Include="Resources\Icons\Beneficios_5.png" />
     <Content Include="Resources\Icons\Beneficios_6.png" />
+    <Content Include="Resources\Icons\Paso 1.png" />
+    <Content Include="Resources\Icons\Paso 2.png" />
+    <Content Include="Resources\Icons\Paso 3.png" />
+    <Content Include="Resources\Icons\Paso 4.png" />
     <Content Include="Resources\Legado-Educativo.png" />
     <Content Include="Resources\LineasPerfil_Blancas.png" />
     <Content Include="Resources\logo.png" />
@@ -127,6 +132,7 @@
     </None>
     <Content Include="Styles\Beneficios_Styles.css" />
     <Content Include="Styles\Certificados_Styles.css" />
+    <Content Include="Styles\comoUtilizarLE_Styles.css" />
     <Content Include="Styles\Footer_Styles.css" />
     <Content Include="Styles\Header_Styles.css" />
     <Content Include="Styles\Home_Styles.css" />
@@ -151,6 +157,13 @@
       <DependentUpon>Beneficios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Clases\InteraccionMenu.cs" />
+    <Compile Include="comoutilizarLE.aspx.cs">
+      <DependentUpon>comoutilizarLE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="comoutilizarLE.aspx.designer.cs">
+      <DependentUpon>comoutilizarLE.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConoceMasArquiHabi.aspx.cs">
       <DependentUpon>ConoceMasArquiHabi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

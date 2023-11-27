@@ -42,11 +42,6 @@
 /*----------Fin_Btn_ChatBot----------*/
 
 .Principal_Container {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -58,6 +53,8 @@
 
 .Body_Container {
     width: 100%;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 .Footer_Container {

@@ -55,7 +55,7 @@
                                 </asp:Panel>
                             </div>
                             <div id="Container_BtnSolicitaInformacion">
-                                <asp:Button ID="Btn_SolicitaInformacion" runat="server" Text="Solicita información" CssClass="BtnSolicitaInformacion" OnClick="Btn_SolicitaInformacion_Click" />
+                                <asp:Button ID="Btn_SolicitaInformacion" runat="server" Text="Adquiere tu legado" CssClass="BtnSolicitaInformacion" OnClick="Btn_SolicitaInformacion_Click" />
                             </div>
                         </div>
                         <asp:Panel ID="Pnl_Header" runat="server">
@@ -78,21 +78,21 @@
                                             <asp:Button ID="Btn_Testimonios" runat="server" Text="Testimonios" class="text-sub" OnClick="Btn_Testimonios_Click" />
                                         </div>
                                         <div class="div_txt-sub">
-                                            <asp:Button ID="Btn_VisionUDEM" runat="server" Text="Visión UDEM" class="text-sub" OnClick="Btn_VisionUDEM_Click" />
+                                            <asp:Button ID="Btn_UDEM" runat="server" Text="UDEM" class="text-sub" OnClick="Btn_UDEM_Click"/>
                                         </div>
+                                        <%--<div class="div_txt-sub">
+                                            <asp:Button ID="Btn_VisionUDEM" runat="server" Text="Visión UDEM" class="text-sub" OnClick="Btn_VisionUDEM_Click" />
+                                        </div>--%>
                                     </div>
                                     <div id="Container_MasSobreLE" class="container_txt">
                                         <div class="div_txt">
                                             <a class="text">Más sobre Legado Educativo UDEM</a>
                                         </div>
                                         <div class="div_txt-sub">
-                                            <asp:Button ID="Btn_ConoceMas" runat="server" Text="Conoce más" class="text-sub" />
+                                            <asp:Button ID="Btn_PasosComprar" runat="server" Text="¿Cómo adquiero mi Legado Educativo UDEM?" class="text-sub" />
                                         </div>
                                         <div class="div_txt-sub">
-                                            <asp:Button ID="Btn_PasosComprar" runat="server" Text="Cómo adquirir tus Certificados de Educación" class="text-sub" />
-                                        </div>
-                                        <div class="div_txt-sub">
-                                            <asp:Button ID="Btn_PasosUsar" runat="server" Text="Cómo usar tu Legado Educativo UDEM" class="text-sub" />
+                                            <asp:Button ID="Btn_PasosUsar" runat="server" Text="Cómo usar tu Legado Educativo UDEM" class="text-sub" OnClick="Btn_PasosUsar_Click"/>
                                         </div>
                                         <div class="div_txt-sub">
                                             <asp:Button ID="Btn_Politicas" runat="server" Text="Políticas" class="text-sub" />

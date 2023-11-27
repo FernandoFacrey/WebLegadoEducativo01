@@ -25,6 +25,16 @@
     overflow: scroll;
 }
 
+
+#BeneficiosLE::-webkit-scrollbar {
+    position: relative;
+    z-index: 1;
+    padding: 5%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: scroll;
+}
+
     #BeneficiosLE h1 {
         color: white;
         text-align: center;

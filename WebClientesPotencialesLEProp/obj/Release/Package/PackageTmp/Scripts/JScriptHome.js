@@ -96,7 +96,7 @@ function showImage(index) {
         case 0:
             changeLabelBtnWithAnimation(
                 "Legado Educativo UDEM",
-                "En la Universidad de Monterrey, sabemos que la mejor inversión que puedes hacer es la educación de tu familia.");
+                "En la Universidad de Monterrey sabemos que la mejor inversión que puedes realizar es en la educación de tu familia.");
             OcultarMostarBotones("btn_IniciarLegado");
             break;
         case 1:

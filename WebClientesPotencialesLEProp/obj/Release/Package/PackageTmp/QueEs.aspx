@@ -14,7 +14,7 @@
             </div>
             <div class="Container_textQueesLE">
                 <h1>¿Qué es Legado Educativo UDEM?</h1>
-                <p>Un programa que te permite pagar anticipadamente la educación de tu familia, ya sea a nivel bachillerato, carrera o posgrado, a través de los Certificados de Educación.</p>
+                <p>Es un programa que te permite pagar de manera anticipada la prepa, carrera o posgrado UDEM de tu familia, a través de <strong>certificados de educación</strong>.</p>
                 <p>Estos certificados son títulos con los que se ampara el costo futuro total o parcial de la colegiatura.</p>
             </div>
         </div>

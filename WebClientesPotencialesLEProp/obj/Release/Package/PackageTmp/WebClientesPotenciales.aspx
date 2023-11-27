@@ -7,8 +7,8 @@
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <div id="slider-container">
         <img class="mostrar" decoding="async" src="Resources/Sesion-Legado-Educativo-2022-239-(3).jpg" />
-        <img decoding="async" src="Resources/Sesion-Legado-Educativo-2022-68.jpg" />
-        <img decoding="async" src="Resources/Sesion-Legado-Educativo-2022-231.jpg" />
+        <img decoding="async" src="Resources/Sesion-Legado-2019-96.jpg" />
+        <img decoding="async" src="Resources/Sesion-Legado-Educativo-2022-234.jpg" />
         <div
             style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.8) 100%);">
         </div>
